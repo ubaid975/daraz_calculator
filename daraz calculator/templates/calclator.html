@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daraz calculator</title>
+    <link rel="stylesheet" href="C:\Users\ubaid\OneDrive\Desktop\daraz calculator\static\css\c.css">    
+    
+</head>
+<body>
+    <style>
+    body{ background-color:black;
+    width: 2000px;
+    height: 1000px;}
+
+    label{color: white;
+    width: 150px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif ;    
+    }
+    h1{background-color: black;
+    color: white;
+    font-size: 125px;
+    size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    button{
+        background-color: black;
+        color: white;
+        border-color: wheat;
+        size: 100px;
+        text-align: center;
+        align-items: center;
+        size-adjust: 200px;
+        width: 200px;
+        height: 25px;
+        stroke: black;
+        
+
+    }
+    form{
+        align-items: center;
+        justify-items: center;
+        size: 1000px;
+
+    }
+    input{
+        text-align: center;
+        height: 20px;
+        border-color: black;
+        stroke: black;
+        flex-grow: inherit;
+        -webkit-box-flex: inherit;}
+
+        </style>
+   
+     <h1>Daraz calculator</h1><br><br><br><br> 
+    <form action="/result" method="post">
+    <label for="">Daraz selling price</label><input type="number" name="daraz_selling_price"><br><br>
+   <label for="">Daraz cost price</label> <input type="number" name="daraz_cost_price"><br><br>
+    <label for="">Daraz Commisssion percentage</label> <input type="number" name="Commisssion"><br><br>
+    <label for="">Daraz shipping charges</label> <input type="number" name="shipping"><br><br>
+    <label for="">Daraz print and flyer expenses</label> <input type="number" name="fp_expenses"><br><br>
+    <button type="submit">submit</button>
+    <button type="reset">Clear form</button>
+    </form>
+    
+    
+</body>
+</html>
